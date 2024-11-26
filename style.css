@@ -1,0 +1,114 @@
+* {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .wrapper {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0,1);
+  }
+  @media (max-width:768px){ 
+      .wrapper{
+        width: 80%;
+      }
+  }
+  .login-box h2 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 20px;
+    width: 93.5%;
+  }
+  
+  .label {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    transition: 0.2s;
+  }
+  
+  .input-box input {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-box input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .input-box input:focus ~ .label,
+  .input-box input:valid ~ .label {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 18px;
+    padding: 0 10px;
+    background-color: #fff;
+  }
+  
+  .show-password {
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #337ab7;
+    cursor: pointer;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .remember-forgot a,
+  .register span a {
+    color: #337ab7;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+
+  .register{
+    text-align: center;
+    margin-top:10px;
+  }
+  .remember-me label,
+  #remember{
+    cursor: pointer;
+  }
+  
