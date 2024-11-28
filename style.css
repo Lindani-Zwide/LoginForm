@@ -111,4 +111,16 @@
   #remember{
     cursor: pointer;
   }
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="checkbox"]:checked {
+    background-color: #4CAF50; 
+    border: none;
+  }
   
