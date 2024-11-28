@@ -78,9 +78,14 @@
   }
   
   .remember-forgot {
+    position: relative;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+  }
+.remember-me label{
+    position: absolute;
+    top: 5.5px;
   }
   .remember-forgot a,
   .register span a {
